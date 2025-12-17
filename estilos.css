@@ -1,0 +1,262 @@
+:root {
+    --azul-principal: #0a3d62;
+    --azul-secundario: #1e90ff;
+    --gris-claro: #f4f4f4;
+    --gris-texto: #333;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--gris-claro);
+    color: var(--gris-texto);
+}
+
+
+header {
+    background-color: var(--azul-principal);
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.hero {
+    background-color: #1e90ff;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+section {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.servicio {
+    background: #eaeaea;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+footer {
+    background-color: #0a3d62;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.contacto-form button {
+    background-color: var(--azul-principal);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.whatsapp {
+    background-color: #25d366;
+}
+
+
+/* SERVICIOS */
+#servicios h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.servicios-contenedor {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.servicio {
+    width: 300px;
+    background: #f8f8f8;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.servicio h3 {
+    color: #0a3d62;
+    margin-bottom: 15px;
+}
+
+.servicio ul {
+    padding-left: 18px;
+}
+
+.servicio ul li {
+    margin-bottom: 8px;
+}
+
+/* PROGRAMAS */
+#programas {
+    background-color: #f4f4f4;
+}
+
+#programas h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.programas-descripcion {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    font-size: 16px;
+}
+
+.programas-contenedor {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.programa {
+    width: 280px;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.programa h3 {
+    color: #1e90ff;
+    margin-bottom: 10px;
+}
+
+/* EQUIPO */
+#equipo h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.equipo-contenedor {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.miembro {
+    width: 300px;
+    background: #f8f8f8;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.miembro h3 {
+    color: #0a3d62;
+    margin-bottom: 5px;
+}
+
+.cargo {
+    font-weight: bold;
+    color: #1e90ff;
+    margin-bottom: 10px;
+}
+
+/* CLIENTES */
+#clientes {
+    background-color: #f8f8f8;
+}
+
+#clientes h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+.cliente {
+    height: 80px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #555;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+
+}
+
+/* CLIENTES - SOLUCIÓN SEGURA */
+
+}
+/* CLIENTES - VERSION FINAL */
+#clientes {
+    padding: 40px 20px;
+}
+
+.clientes-contenedor {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cliente {
+    width: 45%;
+    min-width: 280px;
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #555;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+
+
+}
+
+/* WHATSAPP BOTON - FIX */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    z-index: 9999;
+}
+
+#nosotros {
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+#nosotros a {
+    color: #0a3d62;
+    font-weight: bold;
+    text-decoration: none;
+}
